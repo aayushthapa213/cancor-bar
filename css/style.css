@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  
+}
+header nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 4%;
+}
+header nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.video{
+    margin: auto;
+    height: 250px;
+    width: 30%;
+    
+    
+}
+.spider{
+    
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+   
+}
+.bar-name{
+    /* background-color: blue; */
+    margin:auto;
+    min-height: 60px;
+    width: 35%;
+    text-align: center;
+   
+}
+.p1{
+    color: white;
+    font-size: 68px;
+    font-family: 'Metal Mania', cursive;
+}
+.p2{
+    font-size: 15px;
+    color: red;
+    font-family: sans-serif;
+}
+.box{
+    margin: auto;
+    /* background-color: antiquewhite; */
+    height: 200px;
+    width: 35%;
+    
+}
+.box-1{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    height: 30%;
+    /* background-color: yellow; */
+}
+.box-2{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    height: 30%;
+    /* background-color: green; */
+}
+.box-3{
+    text-align: center;
+    margin:auto;
+     display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 30%;
+    /* background-color: gray; */
+}
+p{
+    margin: auto;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.menu{
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.menu p{
+    
+   
+    color: white;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+ 
+    
+}
+.signin{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+   /* background-color: aquamarine; */
+   border: solid;
+   border-color: white;
+   border-radius: 8px;
+}
+footer{
+    height: 70px;
+  
+   position:relative;
+   display: flex;
+   justify-content: center;
+}
+.social{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    
+   
+    width: 12%;
+    height: 50px;
+    justify-content: space-around;
+}
+.fb{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+.tw{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+.ig{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
