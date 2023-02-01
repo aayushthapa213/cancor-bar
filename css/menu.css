@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  
+}
+header nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 4%;
+}
+header nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu-title{
+    display: flex;
+    height: 250px ;
+    width: 100%;
+}
+.menu-title p{
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-family: 'Metal Mania', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+   margin: auto;
+   border-left: solid;
+    border-right: solid;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 8px;
+    
+}
+.drink-txt{
+    
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+   
+}
+.video{
+    width: 33.33%;
+    height: 100%;
+}
+.menu-txt{
+    
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+
+}
+
+.drink{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+} 
+
+.sub-topic{
+    margin:1% 0;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+}
+.topic-name{
+   width: 100%;
+   height: 70%;
+   display: flex;
+   text-align:center;
+}
+.topic-name p{
+    color: red;
+    width: fit-content;
+    margin: auto;
+   text-align:center;
+   font-size: 50px;
+   font-family: sans-serif;
+   font-weight:100;
+   font-style: oblique;
+
+}
+.topic-info{
+    width: 100%;
+    height: 30%;
+    display: flex;
+   text-align:center;
+}
+.topic-info p{
+    color: gray;
+    width: fit-content;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name-box{
+   
+    width: 80%;
+    margin: auto;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.a{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/tweeter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a1{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/classic\ mojito.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a2{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/vodka\ marftini.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a3{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/dirty\ martini.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a4{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/apple\ martini.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a5{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/classic\ mojito.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a6{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/pineapple\ mojito.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aa1{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/extra\ pale.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aa2{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/dark\ larger.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aa3{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/blonde\ ale.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aa4{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/american\ farmhouse.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aa5{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/belgium\ wheat\ ale.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aaa1{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/sparkling\ france.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aaa2{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/rose\ spain.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aaa3{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/white\ wine.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aaa4{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/red\ wine\ spain.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aaa5{
+    
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    background-image: url('../images/red\ wine\ france.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b{
+   
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+    border-color: gray;
+    border-radius: 2px;
+}
+.b p{
+    color: white;
+    width: fit-content;
+    margin: auto;
+   font-size: 16px;
+    text-align:center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.c{
+   
+    width: 80%;
+    margin:auto;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.c p{
+    color: gray;
+    text-align: center;
+    
+    width: fit-content;
+    margin: auto;
+   
+}
+.ab{
+   
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+footer{
+    height: 70px;
+  
+   position:relative;
+   display: flex;
+   justify-content: center;
+}
+.social{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    
+   
+    width: 16%;
+    height: 50px;
+    justify-content: space-around;
+}
+.fb{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+.tw{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+.ig{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+

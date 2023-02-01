@@ -121,6 +121,9 @@ p{
     display: flex;
     justify-content: center;
 }
+.menu a{
+    text-decoration: none;
+}
 .menu p{
     
    
@@ -131,20 +134,28 @@ p{
  
     
 }
+.signin a{
+    text-decoration: none;
+   
+}
+.butt-div{
+    width: 100%;
+    height: fit-content;
+    padding: 0 36.5% ;
+}
 .signin{
     margin: auto;
     width: fit-content;
-    display: flex;
-    justify-content: center;
     height: 40px;
+   
    /* background-color: aquamarine; */
    border: solid;
    border-color: white;
    border-radius: 8px;
 }
+
 footer{
     height: 70px;
-  
    position:relative;
    display: flex;
    justify-content: center;
