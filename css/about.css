@@ -92,7 +92,7 @@ header nav ul li a{
 .img-3{
     z-index: 15;
     position: absolute;
-    background-color: white;
+    
     height: 100%;
     width: 50%;
     right: 16%;
@@ -103,7 +103,7 @@ header nav ul li a{
 .img-3 .about1{
     height: 40%;
     width: 100%;
-    background-color: white;
+    background-color: rgb(249, 124, 124);
    display: flex;
 
 }
@@ -114,21 +114,24 @@ header nav ul li a{
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
-    background-color: white ;
+    background-color: rgb(249, 124, 124);
+
 }
 .info{
     height: 60%;
     width: 100%;
-    background-color: white;
+       background-color: rgb(249, 124, 124);
+
     position: relative;
 }
 .info p{
     width: 90%;
     margin: auto;
     font-family: sans-serif;
-    font-size: 15px;
-    color: rgb(84, 83, 83);
-    background-color: white;
+    font-size: 16px;
+    color: white;
+       background-color: rgb(249, 124, 124);
+
 }
 .info button{
     height: 4vh;
