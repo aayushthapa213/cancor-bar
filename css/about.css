@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+  
+}
+header nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 4%;
+}
+header nav ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.5s;
+
+}
+.about {
+    border-bottom: solid;
+    border-color: red;
+    border-width: 2px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.video-div{
+    height: 40vh;
+    width: 100%;
+   
+    position: relative;
+}
+.img-1{
+    position: absolute;
+    z-index: 6;
+   
+    height: 95%;
+    width: 35%;
+    right: 4%;
+    top: 20%;
+}
+.img-11{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.videoo{
+    
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.image-div{
+    height: 50vh;
+    width: 100%;
+    
+    position: relative;
+}
+.img-2{
+    position: absolute;
+    
+    height: 100%;
+    width: 24%;
+    left: 4%;
+    bottom: 20%;
+}
+.img-3{
+    z-index: 15;
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    right: 16%;
+    bottom: 4%;
+   
+    
+}
+.img-3 .about1{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+   display: flex;
+
+}
+
+.about1 p{
+   display: inline;
+   margin: auto;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: white ;
+}
+.info{
+    height: 60%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.info p{
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    background-color: white;
+}
+.info button{
+    height: 4vh;
+    width: 20%;
+    left: 37%;
+    bottom: 4%;
+    display: inline;
+    color: white;
+    position: absolute;
+    transition: 0.5s;
+}
+        /* <<<<<<<<footer start>>>>>>>>> */
+footer{
+    height: 70px;
+   position:relative;
+   display: flex;
+   justify-content: center;
+}
+.social{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    
+   
+    width: 12%;
+    height: 50px;
+    justify-content: space-around;
+}
+.ic{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*<<<<<<<<< hover start >>>>>>>>>>*/
+
+.social .image:hover{
+    border-bottom: solid;
+    border-color: red;
+    border-width: 2px;
+}
+a:hover{
+    
+    color: gray;
+   
+}
+.info button:hover{
+    background-color: white;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 12px;
+    border-width: 1px;
+    cursor: pointer;
+}

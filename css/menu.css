@@ -29,6 +29,11 @@ header nav ul{
     justify-content: center;
    
 }
+.menu{
+    border-bottom: solid;
+    border-color: red;
+    border-width: 2px;
+}
 header nav ul li{
     list-style: none;
     margin: 0 4%;
@@ -110,8 +115,6 @@ header nav ul li a{
 .topic-info{
     width: 100%;
     height: 30%;
-    display: flex;
-   text-align:center;
 }
 .topic-info p{
     color: gray;
@@ -128,17 +131,9 @@ header nav ul li a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
-    row-gap: 10px;
+    row-gap: 22px;
 }
-.a{
-    
-    height: 65%;
-    width: 70%;
-    margin: auto;
-    background-image: url('../images/tweeter.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .a1{
     
     height: 65%;
@@ -147,6 +142,7 @@ header nav ul li a{
     background-image: url('../images/classic\ mojito.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .a2{
     
@@ -156,6 +152,8 @@ header nav ul li a{
     background-image: url('../images/vodka\ marftini.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .a3{
     
@@ -165,6 +163,8 @@ header nav ul li a{
     background-image: url('../images/dirty\ martini.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .a4{
     
@@ -174,6 +174,8 @@ header nav ul li a{
     background-image: url('../images/apple\ martini.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .a5{
     
@@ -183,6 +185,8 @@ header nav ul li a{
     background-image: url('../images/classic\ mojito.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .a6{
     
@@ -192,6 +196,8 @@ header nav ul li a{
     background-image: url('../images/pineapple\ mojito.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aa1{
     
@@ -201,6 +207,8 @@ header nav ul li a{
     background-image: url('../images/extra\ pale.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aa2{
     
@@ -210,6 +218,8 @@ header nav ul li a{
     background-image: url('../images/dark\ larger.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aa3{
     
@@ -219,6 +229,8 @@ header nav ul li a{
     background-image: url('../images/blonde\ ale.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aa4{
     
@@ -228,6 +240,8 @@ header nav ul li a{
     background-image: url('../images/american\ farmhouse.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aa5{
     
@@ -237,6 +251,8 @@ header nav ul li a{
     background-image: url('../images/belgium\ wheat\ ale.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aaa1{
     
@@ -246,6 +262,8 @@ header nav ul li a{
     background-image: url('../images/sparkling\ france.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aaa2{
     
@@ -255,6 +273,8 @@ header nav ul li a{
     background-image: url('../images/rose\ spain.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aaa3{
     
@@ -264,6 +284,8 @@ header nav ul li a{
     background-image: url('../images/white\ wine.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aaa4{
     
@@ -273,6 +295,8 @@ header nav ul li a{
     background-image: url('../images/red\ wine\ spain.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
 }
 .aaa5{
     
@@ -281,6 +305,7 @@ header nav ul li a{
     margin: auto;
     background-image: url('../images/red\ wine\ france.jpeg');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 .b{
@@ -349,28 +374,27 @@ footer{
     height: 50px;
     justify-content: space-around;
 }
-.fb{
-   
+.ic {
+
     width: 20%;
     height: 100%;
     justify-content: center;
 }
-.tw{
-   
-    width: 20%;
-    height: 100%;
-    justify-content: center;
-}
-.ig{
-   
-    width: 20%;
-    height: 100%;
-    justify-content: center;
-}
+
 .image{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+/*<<<<<<<<< hover start >>>>>>>>>>*/
+
+.social .image:hover{
+    border-bottom: solid;
+    border-color: red;
+    border-width: 2px;
+}
+a:hover{
+    color: gray;
 }
 
 

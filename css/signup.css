@@ -38,6 +38,12 @@ header nav ul li a{
     font-family: sans-serif;
     text-decoration: none;
     color: whitesmoke;
+    transition: 0.5s;
+}
+.signup{
+    border-bottom: solid;
+    border-color: red;
+    border-width: 2px;
 }
 .box{
     width: 80%;
@@ -119,19 +125,17 @@ header nav ul li a{
 }
 .in{
     background-color: white;
-    color: red;
+    color: black;
     height: 100%;
     width: 100%;
     border: none;
     border-bottom: solid;
     border-width: 1px;
     border-color: red;
+    transition: 0.5s;
 }
 .in:hover{
-    border: none;
-    border-bottom: solid;
-    border-width: 1px;
-    border-color: red;
+   background-color: rgb(206, 204, 204);
 
 }
  
@@ -152,19 +156,7 @@ header nav ul li a{
         height: 50px;
         justify-content: space-around;
     }
-    .fb{
-       
-        width: 20%;
-        height: 100%;
-        justify-content: center;
-    }
-    .tw{
-       
-        width: 20%;
-        height: 100%;
-        justify-content: center;
-    }
-    .ig{
+    .ic{
        
         width: 20%;
         height: 100%;
@@ -176,5 +168,17 @@ header nav ul li a{
         object-fit: cover;
     }
     
+  /*<<<<<<<<< hover start >>>>>>>>>>*/
+
+.social .image:hover{
+    border-bottom: solid;
+    border-color: red;
+    border-width: 2px;
+}  
+a:hover{
     
+    color: gray;
+   
+}
+
     
